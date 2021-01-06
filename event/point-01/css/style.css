@@ -317,12 +317,13 @@ h6 {
 
 
 .btn-free2 {
-  background-color: #fff600;
   display: block;
   margin: auto;
-  padding: 24px 0;
   position: relative;
   text-align: center;
+}
+.top-cta{
+  width: 60%;
 }
 
 /*------------------------------------------------------------------------------
