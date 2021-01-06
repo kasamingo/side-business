@@ -284,7 +284,8 @@ h6 {
 }
 
 .btn-free.long {
-  width: 720px;
+    width: 720px;
+    height: 93px;
 }
 
 .btn-free.long::before {
@@ -312,6 +313,16 @@ h6 {
   top: 0;
   right: 23px;
   margin: auto;
+}
+
+
+.btn-free2 {
+  background-color: #fff600;
+  display: block;
+  margin: auto;
+  padding: 24px 0;
+  position: relative;
+  text-align: center;
 }
 
 /*------------------------------------------------------------------------------
@@ -2373,7 +2384,7 @@ bg
 }
 
 .floating-box .btn-free {
-  background-image: linear-gradient(to left, #ff6d7c 0%, #ff392a);
+  background-image: linear-gradient(to left, #07b901 0%, #07b901);
 }
 
 .floating-box .btn-free.long::before {
@@ -2390,7 +2401,10 @@ bg
 }
 
 .floating-box .btn-free img {
-  width: 258px;
+  width: 458px;
+  position: relative;
+  top: -15px;
+  left: 29px;
 }
 .img-wrapper{
   text-align: center;
